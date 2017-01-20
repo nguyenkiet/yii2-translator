@@ -1,0 +1,29 @@
+{
+	"name": "targetmedia/translator",
+	"description": "Language translator for Yii2",
+	"keywords": [
+		"yii2",
+		"Translator",
+		"Language"
+	],
+	"homepage": "https://bitbucket.org/tyson_vietnamcubator/yii2-translator",
+	"type": "library",
+	"license": "MIT",
+	"authors": {
+		"name": "Tyson Nguyen",
+		"email": "tyson@vietnamcubator.com",
+		"homepage": "https://bitbucket.org/tyson_vietnamcubator"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-bootstrap": "*",
+		"kartik-v/yii2-grid": "*",
+		"kartik-v/yii2-editable": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"app\\modules\\translator\\": ""
+		}
+	}
+}

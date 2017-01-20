@@ -1,0 +1,33 @@
+.translate-scan-button {
+	margin-right: 10px;
+}
+
+.translated-filter-title {
+	margin-top: 10px;
+}
+
+.translate-scanning {
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+	padding: 0px 50px 0px 50px !important;
+}
+
+.translated-search-keyword {
+	margin: 0px !important;
+}
+
+.kv-editable-value.kv-editable-link {
+	text-align: left;
+}
+
+.translated-module-content {
+	
+}
+
+.translate-search-key>label {
+	text-align: left !important;
+}
+
+.translate-search-key>div {
+	padding-left: 0px !important;
+}
