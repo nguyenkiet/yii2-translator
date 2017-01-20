@@ -1,18 +1,18 @@
 {
-	"name": "targetmedia/translator",
+	"name": "yii2-translator/translator",
 	"description": "Language translator for Yii2",
 	"keywords": [
 		"yii2",
 		"Translator",
 		"Language"
 	],
-	"homepage": "https://bitbucket.org/tyson_vietnamcubator/yii2-translator",
+	"homepage": "https://github.com/nguyenkiet/yii2-translator",
 	"type": "library",
 	"license": "MIT",
 	"authors": {
-		"name": "Tyson Nguyen",
-		"email": "tyson@vietnamcubator.com",
-		"homepage": "https://bitbucket.org/tyson_vietnamcubator"
+		"name": "Nguyen Kiet",
+		"email": "kietnt.sg@gmail.com",
+		"homepage": "https://github.com/nguyenkiet"
 	},
 	"require": {
 		"php": ">=5.4.0",
