@@ -2,14 +2,14 @@
 - Add to your `composer.json`
 ```php
 "require": {
-    "targetmedia/translator" : "dev-master"
+    "yii2-translator/translator" : "dev-master"
 },
 ```
 ```php
 "repositories": [
     {
         "type": "vcs",
-        "url": "git@bitbucket.org:tyson_vietnamcubator/yii2-translator.git"
+        "url": "git@github.com:nguyenkiet/yii2-translator.git"
     }
 ]
 ```
@@ -38,7 +38,7 @@
 	            'class' => 'app\modules\translator\TargetMessageSource',
 	            'basePath' => '@app/frontend/messages',
 	            'translatedPath' => "@runtime/messages",
-	            'forceTranslation' => true, // This source uses "code" keys, not actual text keys
+	            'forceTranslation' => true,
 	        ],
 	        '*' => [
 	            'class' => 'app\modules\translator\TargetMessageSource',
@@ -59,7 +59,7 @@
 	    'class' => 'app\modules\translator\Module', 
 	    'originLanguagePath' => "@frontend/messages", // The origin languages messages
         'targetLanguagePath' => "@runtime/messages",  // The target of translated messages
-        'userAccess' => ['eveline@vdboom.nl','eveline@vdboom.nl'] 
+        'userAccess' => ['admin@gmail.com', 'manager@gmail.com'] 
 	],
 ];
 ```
